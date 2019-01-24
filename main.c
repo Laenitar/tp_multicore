@@ -206,7 +206,7 @@ void RemplissageTableauAlea(TGeneration t, int nbLignes, int nbColonnes)
 {
 	int i = 0, n = 1, j =0;
 
-	printf("Choississez le nombre de cellule de départ :\n  1 : Beaucoup\n  2 : Normal\n  3 : Peu\n");
+	printf("Choississez le nombre de cellule de dï¿½part :\n  1 : Beaucoup\n  2 : Normal\n  3 : Peu\n");
 	scanf("%d", &n);
 
 	srand(time(NULL));
@@ -219,5 +219,3 @@ void RemplissageTableauAlea(TGeneration t, int nbLignes, int nbColonnes)
         }
 
 }
-
-
